@@ -44,7 +44,7 @@ export default class FacebookApp {
 
             $('#facebook').append(elem);
         }
-        this.widget.html.next($('#facebook-container').html());
+        this.widget.html($('#facebook-container').html());
     }
 
     getUserNewsFeed() {
